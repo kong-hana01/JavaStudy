@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void problem01() {
+		Scanner in = new Scanner(System.in);
+		int number = in.nextInt();
+		String bi = Integer.toString(number, 2);
+		String oc = Integer.toString(number, 8);
+		String he = Integer.toString(number, 16);
+		System.out.println("2진수: " + bi + "\n8진수: " + oc + "\n16진수: " + he + "\n역수: " + (1.0 / number));
+	}
+		
+	
+	
+	public static void main(String[] args) {
+		problem01();
+	}
+}

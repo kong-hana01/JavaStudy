@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class HelloWorld {
+	
+	// 첫번째 자바 프로그램
+	public static void main(String[] args) {
+		Random generator = new Random();
+		String location = "Java";
+		String name = String.join(" ", "Choi", "Hanbin");
+		System.out.println("Hello, World");
+		System.out.println(generator.nextInt());
+		System.out.println(generator.nextInt());
+		System.out.println(Math.pow(1, 2));
+		System.out.println(location + 1111);
+		System.out.println("My name is " + name);
+	}
+
+}
